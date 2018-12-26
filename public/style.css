@@ -108,8 +108,8 @@ nav #right ul li a {
 /* Discover left */
 #discover {
     height: 350px;
-    background-color: rgba(250, 244, 244, 0.849);
-    /* background-color: antiquewhite; */
+    /* background-color: rgba(250, 244, 244, 0.849); */
+    background-color: white;
     border: 1px red solid;
 }
 
@@ -176,9 +176,10 @@ nav #right ul li a {
     float: left;
     width: 400px;
     height: 350px;
-    /* border: 1px red solid; */
-    background-image: url('./img/breakfast.jpeg');
+    margin-left: 20px;
+    background-image: url('./img/lunch-no-background.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* border-radius: 180px; */
 }
