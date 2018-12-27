@@ -110,7 +110,6 @@ nav #right ul li a {
     height: 350px;
     /* background-color: rgba(250, 244, 244, 0.849); */
     background-color: white;
-    border: 1px red solid;
 }
 
 #discover-left {
@@ -182,4 +181,26 @@ nav #right ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     /* border-radius: 180px; */
+}
+
+/* Second menu styles */
+#second-menu {
+    border: 1px red solid;
+    width: 100%;
+}
+
+#second-menu ul {
+    background-color: #F8F6F7;
+}
+
+#second-menu ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#second-menu ul li a {
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Kalam','Gochi Hand','Indie Flower', cursive;
+    color: black;
 }
