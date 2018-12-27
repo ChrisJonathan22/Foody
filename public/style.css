@@ -209,3 +209,30 @@ nav #right ul li a {
 #second-menu ul li a:hover {
     color: #A58755;
 }
+
+/* Display section styles */
+#display {
+    height: 400px;
+    background-color: grey;
+  }
+  
+  #display #left {
+    width: 33%;
+    height: 100%;
+    background-color: red;
+    float: left;
+  }
+  
+  #display #middle {
+    width: 33%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+  }
+  
+  #display #right {
+    width: 33%;
+    height: 100%;
+    background-color: green;
+    float: left;
+  }
