@@ -185,12 +185,13 @@ nav #right ul li a {
 
 /* Second menu styles */
 #second-menu {
-    border: 1px red solid;
+    background-color: #F8F6F7;
     width: 100%;
+    padding: 10px 0 10px 0;
 }
 
 #second-menu ul {
-    background-color: #F8F6F7;
+    text-align: center;
 }
 
 #second-menu ul li {
@@ -203,4 +204,8 @@ nav #right ul li a {
     font-weight: 800;
     font-family: 'Kalam','Gochi Hand','Indie Flower', cursive;
     color: black;
+}
+
+#second-menu ul li a:hover {
+    color: #A58755;
 }
