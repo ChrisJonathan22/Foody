@@ -219,20 +219,52 @@ nav #right ul li a {
   #display #left {
     width: 33%;
     height: 100%;
-    background-color: red;
+    background-image: url('./img/breakfast.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     float: left;
   }
+
+  #display .overlay {
+      /* background-color: black; */
+      height: 100%;
+      opacity: 0;
+  }
+
+  #display .overlay h4 {
+      font-size: 40px;
+      color: white;
+      text-align: center;
+      padding: 190px;
+  }
+  
+  #display .overlay:hover {
+      opacity: 0.6;
+      background: rgba(0, 0, 0, 0.3);
+  }
+
+  /* #display #left:hover {
+      background: black;
+      opacity: 0.9;
+  } */
   
   #display #middle {
     width: 33%;
     height: 100%;
-    background-color: blue;
+    background-image: url('./img/vegetarian-meal.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     float: left;
   }
   
   #display #right {
     width: 33%;
     height: 100%;
-    background-color: green;
+    background-image: url('./img/meal.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     float: left;
   }
