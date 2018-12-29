@@ -167,9 +167,6 @@ nav #right ul li a {
 }
 
 /* Discover right*/
-#discover-right {
-    /* height: 100%; */
-}
 
 #discover-right-inner {
     float: left;
@@ -215,27 +212,27 @@ nav #right ul li a {
     height: 400px;
   }
   
-.container {
+.holder {
     position: relative;
     width: 33.33%;
     float: left;
   }
 
-  #left {
+  #holder-left {
     background: url("./img/breakfast.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#center{
+#holder-center{
     background: url("./img/vegetarian-meal.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#right {
+#holder-right {
     background: url("./img/meal.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -262,11 +259,11 @@ nav #right ul li a {
     text-align: center;
   }
   
-  .container:hover .image {
+  .holder:hover .image {
     opacity: 0.3;
   }
   
-  .container:hover .middle {
+  .holder:hover .middle {
     opacity: 1;
   }
   
