@@ -273,3 +273,49 @@ nav #right ul li a {
     font-size: 16px;
     padding: 16px 32px;
   }
+
+  /* Choose dish section styles */
+  #choose-dish {
+      height: 700px;
+      border: 1px red solid;
+  }
+
+  #choose-dish h3 {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-family: 'Russo One';
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #third-menu {
+    background-color: white;
+    width: 490px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+}
+
+#third-menu ul {
+    text-align: center;
+    border-bottom: 1px lightgray solid;
+}
+
+#third-menu ul li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#third-menu ul li a {
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Kalam','Gochi Hand','Indie Flower', cursive;
+    color: black;
+}
+
+#third-menu ul li a:hover {
+    color: #A58755;
+    border-bottom: 1px red solid;
+}
