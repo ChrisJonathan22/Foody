@@ -277,7 +277,6 @@ nav #right ul li a {
   /* Choose dish section styles */
   #choose-dish {
       height: 700px;
-      border: 1px red solid;
   }
 
   #choose-dish h3 {
@@ -323,7 +322,6 @@ nav #right ul li a {
 #dish-list {
     width: 70%;
     height: 400px;
-    border: 1px red solid;
     margin: 0 auto;
     padding-top: 60px;
 }
@@ -332,12 +330,12 @@ nav #right ul li a {
     float: left;
     width: 45%;
     height: 400px;
-    /* border: 1px blue solid; */
 }
 
 #left-side li, #right-side li {
-    border: 1px red solid;
-    padding: 10px 0 10px 0;
+    border: 1px black solid;
+    box-shadow: 2px 5px 8px #888888;
+    padding: 10px 10px 10px 10px;
     margin: 0 0 10px 0;
     overflow: hidden;
 }
@@ -369,6 +367,5 @@ nav #right ul li a {
     float: right;
     width: 45%;
     height: 400px;
-    /* border: 1px blue solid; */
 }
 
