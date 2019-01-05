@@ -10,26 +10,28 @@
 </head>
 <body>
     <div id ="container">
-        <header>
-            <nav>
+        <header id="header">
+            <nav id="nav-bar">
                 <div id ="left">
-                    <a id ="logo" href="/">FOODY</a>
+                    <a id ="logo" href="/">
+                        <img id="header-img" src="/img/FOODY-LOGO.png" alt="logo">
+                    </a>
                 </div>
                 <div id ="right">
                     <ul>
-                        <li><a href="/">HOME</a></li>
-                        <li><a href="#">PAGES</a></li>
-                        <li><a href="#">MENU</a></li>
-                        <li><a href="#">GALLERY</a></li>
-                        <li><a href="#">BLOG</a></li>
-                        <li><a href="#">CONTACTS</a></li>
+                        <li><a href="/" class="nav-link">HOME</a></li>
+                        <li><a href="#discover" class="nav-link">DISCOVER</a></li>
+                        <li><a href="#favourite" class="nav-link">FAVOURITE</a></li>
+                        <li><a href="#menu" class="nav-link">MENU</a></li>
+                        <li><a href="#blog" class="nav-link">BLOG</a></li>
+                        <li><a href="#contact" class="nav-link">CONTACTS</a></li>
                     </ul>
                 </div>    
             </nav>
             <div id ="title-holder">
                 <h1>WELCOME TO FOODY</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, dictumst habitant conubia sed nec turpis imperdiet natoque, posuere ligula quam egestas purus lectus.</p>
-                <input type="button" value="Book a table">
+                <input id="button" type="button" value="Book a table">
             </div>
         </header>
         <section id ="discover">
@@ -61,7 +63,7 @@
                 <li><a href="#">SALADS</a></li>
             </ul>
         </nav>
-        <section id="display">
+        <section id="favourite">
             <div class="holder">
                 <div id="holder-left" class="image"></div>
                 <div class="middle">
@@ -81,7 +83,7 @@
                 </div>
               </div>
         </section>
-        <section id="choose-dish">
+        <section id="menu">
             <h3>Choose Your Dish</h3>
             <nav id = "third-menu">
                 <ul>
@@ -145,6 +147,12 @@
                     </li>
                 </ul>
             </div>
+        </section>
+        <section id="video-container">
+            <iframe id="video" width="520" height="415" src="https://www.youtube.com/embed/twl072sffjE"></iframe>
+            <p>Video courtesy of 
+                <span>The Penny Black Restaurant & Bar</span>
+            </p>
         </section>
     </div>    
 </body>

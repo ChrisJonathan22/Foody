@@ -5,63 +5,64 @@
 }
 
 /* Use an image as a background for the header */
-header {
+#header {
     background-image: url('./img/restaurant.jpg');
-    height: 400px;
+    height: 420px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 /* nav styles */
-nav {
-    /* width: 80%; */
+#nav-bar {
     width: 700px;
-    height: 15%;
+    height: 35%;
     margin: 0 auto;
-    /* border: 1px red solid; */
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-nav a {
+#nav-bar a {
     color: white;
 }
 
-nav a:hover {
+#nav-bar a:hover {
     color: #A58755;
 }
 
 /* Logo container styles */
-nav #left {
+#nav-bar #left {
     float: left;
     padding-top: 10px;
+    width: 28%;
 }
 
 /* Logo styles */
 #logo {
     text-decoration: none;
-    font-weight: 800;
-    font-size: 30px;
-    font-family: 'Gochi Hand','Indie Flower', cursive;
+}
+
+#header-img {
+    height: 100px;
+    width: 200px;
 }
 
 /* Links container styles */
-nav #right {
+#nav-bar #right {
     float: right;
+    width: 72%;
 }
 
-nav #right ul {
-    /* display: inline-block; */
-    margin-top: 20px;
+#nav-bar #right ul {
+    margin-top: 60px;
 }
 
-nav #right ul li {
+#nav-bar #right ul li {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
-nav #right ul li a {
+#nav-bar #right ul li a {
     text-decoration: none;
     font-weight: 800;
     /* font-size: 30px; */
@@ -94,7 +95,7 @@ nav #right ul li a {
 }
 
 /* Button styles */
-#title-holder input {
+#title-holder #button {
     margin-top: 30px;
     background-color: #A58755;
     color: white;
@@ -207,8 +208,8 @@ nav #right ul li a {
     color: #A58755;
 }
 
-/* Display section styles */
-#display {
+/* Favourite section styles */
+#favourite {
     height: 400px;
   }
   
@@ -275,11 +276,11 @@ nav #right ul li a {
   }
 
   /* Choose dish section styles */
-  #choose-dish {
+  #menu {
       height: 700px;
   }
 
-  #choose-dish h3 {
+  #menu h3 {
     padding-top: 70px;
     padding-bottom: 50px;
     font-family: 'Russo One';
@@ -369,3 +370,22 @@ nav #right ul li a {
     height: 400px;
 }
 
+/* Video section styles */
+#video-container {
+    background: url("./img/black-texture.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 65px;
+    height: 500px;
+    text-align: center;
+}
+
+#video-container p {
+    color: white;
+}
+
+#video-container span {
+    color: #A58755;
+    font-weight: 800;
+}
