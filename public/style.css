@@ -389,3 +389,104 @@
     color: #A58755;
     font-weight: 800;
 }
+
+/* Reservation section styles */
+#reservation {
+    background: url("./img/res-meal.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+#reservation-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 500px;
+}
+
+#reservation-overlay h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Russo One';
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+
+#reservation-input {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#reservation-input input {
+    height: 30px;
+    width: 130px;
+}
+
+#reservation-button {
+    background-color: red;
+    color: white;
+    border: 0;
+    height: 34px !important;
+}
+
+/* Meet our chefs section styles */
+#meet-our-chefs {
+    height: 700px;
+}
+
+#meet-our-chefs h3 {
+    text-align: center;
+    padding-top: 90px;
+    font-size: 30px;
+    font-family: 'Russo One';
+    font-weight: 500;
+}
+
+#chef-holder {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-top: 50px; */
+    border: 1px red solid;
+}
+
+#chef-holder div {
+    background-color: red;
+    width: 25%;
+    height: 350px;
+    margin: 10px;
+}
+
+#chef1 {
+    background: url("./img/chef1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#chef2 {
+    background: url("./img/chef2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#chef3 {
+    background: url("./img/chef3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#chef4 {
+    background: url("./img/chef4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
