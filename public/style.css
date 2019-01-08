@@ -514,8 +514,8 @@
 
 #subscribe {
     height: 250px;
-    background: url("./img/beer-bottles.jpg");
-    background-position: top;
+    background: url("./img/liquor-bottles.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -528,6 +528,7 @@
     font-weight: 700;
     padding-top: 50px;
     padding-bottom: 50px;
+    text-shadow: rgb(29, 28, 28) 10px 10px 10px;
 }
 
 
@@ -535,7 +536,6 @@
 #subscribe-holder {
    width: 450px;
    height: 35px;
-   /* border: 1px yellow solid; */
    margin: 0 auto;
 }
 
@@ -568,6 +568,7 @@
     border: 0px;
     float: left;
     padding-top: 5px;
+    width: 330px;
 }
 
 #text:focus {
