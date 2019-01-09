@@ -1,10 +1,12 @@
 /* Reset the padding and margin of every element on the page to 0 */
+
 * {
     padding: 0;
     margin: 0;
 }
 
 /* Use an image as a background for the header */
+
 #header {
     background-image: url('./img/restaurant.jpg');
     height: 420px;
@@ -14,6 +16,7 @@
 }
 
 /* nav styles */
+
 #nav-bar {
     width: 700px;
     height: 35%;
@@ -31,6 +34,7 @@
 }
 
 /* Logo container styles */
+
 #nav-bar #left {
     float: left;
     padding-top: 10px;
@@ -38,6 +42,7 @@
 }
 
 /* Logo styles */
+
 #logo {
     text-decoration: none;
 }
@@ -48,6 +53,7 @@
 }
 
 /* Links container styles */
+
 #nav-bar #right {
     float: right;
     width: 72%;
@@ -65,11 +71,11 @@
 #nav-bar #right ul li a {
     text-decoration: none;
     font-weight: 800;
-    /* font-size: 30px; */
     font-family: 'Kalam','Gochi Hand','Indie Flower', cursive;
 }
 
 /* Title styles */
+
 #title-holder {
     color: white;
     width: 80%;
@@ -87,7 +93,6 @@
 }
 
 #title-holder p {
-    /* border: 1px red solid; */
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.3);
     width: 80%;
@@ -95,6 +100,7 @@
 }
 
 /* Button styles */
+
 #title-holder #button {
     margin-top: 30px;
     background-color: #A58755;
@@ -107,9 +113,9 @@
 }
 
 /* Discover left */
+
 #discover {
     height: 350px;
-    /* background-color: rgba(250, 244, 244, 0.849); */
     background-color: white;
 }
 
@@ -141,6 +147,7 @@
 }
 
 /* Avatar styles */
+
 #avatar{
     background-image: url('./img/chef-avatar.jpg');
     height: 70px;
@@ -178,10 +185,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* border-radius: 180px; */
 }
 
 /* Second menu styles */
+
 #second-menu {
     background-color: #F8F6F7;
     width: 100%;
@@ -209,6 +216,7 @@
 }
 
 /* Favourite section styles */
+
 #favourite {
     height: 400px;
   }
@@ -276,6 +284,7 @@
   }
 
   /* Choose dish section styles */
+
   #menu {
       height: 700px;
   }
@@ -357,7 +366,6 @@
 .price {
     float: right;
     color: red;
-    /* font-family: 'Russo One'; */
 }
 
 #left-side, #right-side {
@@ -371,6 +379,7 @@
 }
 
 /* Video section styles */
+
 #video-container {
     background: url("./img/black-texture.jpg");
     background-position: center;
@@ -391,6 +400,7 @@
 }
 
 /* Reservation section styles */
+
 #reservation {
     background: url("./img/res-meal.jpg");
     background-position: center;
@@ -433,6 +443,7 @@
 }
 
 /* Meet our chefs section styles */
+
 #meet-our-chefs {
     height: 650px;
 }
@@ -452,8 +463,6 @@
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    /* padding-top: 50px; */
-    border: 1px grey solid;
 }
 
 .chef-profile {
@@ -573,4 +582,36 @@
 
 #text:focus {
     outline: none;
+}
+
+/* Footer section styles */
+
+footer {
+    height: 1000px;
+    position: relative;
+}
+
+#map {
+    height: 65%;
+    background: url("./img/map.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#copyright {
+    background-color: #464646;
+    height: 35%;
+}
+
+/* Form section styles */
+
+#form {
+    height: 500px;
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    left: 25%;
+    top: 330px;
+    border: 1px green solid;
 }
