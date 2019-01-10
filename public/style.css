@@ -18,11 +18,12 @@
 /* nav styles */
 
 #nav-bar {
-    width: 700px;
-    height: 35%;
-    margin: 0 auto;
+    position: fixed;
+    left: 30%;
+    z-index: 2000000000;
+    width: 40%;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(10, 10, 10, 0.3);
 }
 
 #nav-bar a {
@@ -77,6 +78,7 @@
 /* Title styles */
 
 #title-holder {
+    padding-top: 90px;
     color: white;
     width: 80%;
     margin: 0 auto;
@@ -606,7 +608,7 @@ footer {
 
 /* Form section styles */
 
-#form {
+#contact {
     height: 500px;
     width: 50%;
     background-color: white;
@@ -614,4 +616,19 @@ footer {
     left: 25%;
     top: 330px;
     border: 1px green solid;
+    overflow: hidden;
+}
+
+#form-holder {
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#address {
+    background-color: #AC8949;
+    width: 50%;
+    height: 100%;
+    float: right;
 }
