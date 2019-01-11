@@ -18,12 +18,15 @@
 /* nav styles */
 
 #nav-bar {
-    position: fixed;
-    left: 30%;
-    z-index: 2000000000;
-    width: 40%;
-    overflow: hidden;
     background-color: rgba(10, 10, 10, 0.3);
+    position: fixed;
+    z-index: 2000000000;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 680px;
+    overflow: hidden;
 }
 
 #nav-bar a {
@@ -609,12 +612,14 @@ footer {
 /* Form section styles */
 
 #contact {
-    height: 500px;
-    width: 50%;
+    height: 400px;
+    width: 700px;
     background-color: white;
     position: absolute;
-    left: 25%;
-    top: 330px;
+    top: 450px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     border: 1px green solid;
     overflow: hidden;
 }
@@ -624,6 +629,11 @@ footer {
     width: 50%;
     height: 100%;
     float: left;
+}
+
+#form {
+    border: 1px red solid;
+    margin-top: 100px;
 }
 
 #address {
