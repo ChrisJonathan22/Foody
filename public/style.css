@@ -115,6 +115,7 @@
     font-size: 15px;
     border: none;
     border-radius: 1px;
+    cursor: pointer;
 }
 
 /* Discover left */
@@ -445,6 +446,7 @@
     color: white;
     border: 0;
     height: 34px !important;
+    cursor: pointer;
 }
 
 /* Meet our chefs section styles */
@@ -572,20 +574,21 @@
     font-family: 'Russo One';
     font-weight: 100;
     font-size: 15px;
+    cursor: pointer;
 }
 
 #subscribe-button:focus {
     outline: none;
 }
 
-#text {
+#subscribe-email {
     border: 0px;
     float: left;
     padding-top: 5px;
     width: 330px;
 }
 
-#text:focus {
+#subscribe-email:focus {
     outline: none;
 }
 
@@ -633,7 +636,18 @@ footer {
 
 #form {
     border: 1px red solid;
-    margin-top: 100px;
+    padding-top: 100px;
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+#name, #email, #message {
+    border: 0px;
+    border-bottom: 1px lightgray solid;
+    float: left;
+    padding-top: 5px;
+    width: 100%;
 }
 
 #address {

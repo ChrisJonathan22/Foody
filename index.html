@@ -43,7 +43,7 @@
                     <div id="chef-avatar">
                         <div id="avatar"></div>
                         <div id="avatar-text">
-                            <h4>JAMES MARKFIELD</h4>
+                            <h4>ADAM MARKFIELD</h4>
                             <p>HEAD CHEF</p>
                         </div>
                     </div>
@@ -219,7 +219,7 @@
             <h3>SUBSCRIBE NOW</h3>
             <div id="subscribe-holder">
                 <div id="input-holder">
-                    <input type="text" name="" id="text" placeholder="Enter your email..."><input type="button" value="subscribe" id="subscribe-button">
+                    <input type="email" name="" id="subscribe-email" placeholder="Enter your email..."><input type="button" value="subscribe" id="subscribe-button">
                 </div>
             </div>
         </section>
@@ -227,16 +227,16 @@
             <div id="map"></div>
             <div id="contact">
                 <div id="form-holder">
-                    <form action="" id="form">
+                    <form method="POST" action="https://www.freecodecamp.com/email-submit" id="form" autocomplete="nope">
                         <label for="">Get In Touch</label>
                         <br/>
-                        <input type="text" name="name" id="name" placeholder="Your Name*">
+                        <input type="text" name="name" id="name" placeholder="Your Name*" autocomplete="nope" required>
                         <br/>
-                        <input type="text" name="email" id="email" placeholder="Email Address*">
+                        <input type="email" name="email" id="email" placeholder="Email Address*" autocomplete="nope" required>
                         <br/>
-                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Write Message*"></textarea>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Write Message*" required></textarea>
                         <br/>
-                        <input type="button" value="SEND MESSAGE">
+                        <input type="submit" id="submit" value="SEND MESSAGE">
                     </form>
                 </div>
                 <div id="address"></div>
