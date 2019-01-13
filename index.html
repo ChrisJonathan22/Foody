@@ -227,19 +227,27 @@
             <div id="map"></div>
             <div id="contact">
                 <div id="form-holder">
-                    <form method="POST" action="https://www.freecodecamp.com/email-submit" id="form" autocomplete="nope">
+                    <form method="POST" action="https://www.freecodecamp.com/email-submit" id="form" autocomplete="off">
                         <label for="">Get In Touch</label>
                         <br/>
-                        <input type="text" name="name" id="name" placeholder="Your Name*" autocomplete="nope" required>
                         <br/>
-                        <input type="email" name="email" id="email" placeholder="Email Address*" autocomplete="nope" required>
+                        <input type="text" name="name" id="name" placeholder="Your Name*" required>
+                        <br/>
+                        <input type="email" name="email" id="email" placeholder="Email Address*" required>
                         <br/>
                         <textarea name="message" id="message" cols="30" rows="10" placeholder="Write Message*" required></textarea>
                         <br/>
                         <input type="submit" id="submit" value="SEND MESSAGE">
                     </form>
                 </div>
-                <div id="address"></div>
+                <div id="address">
+                    <div id="address-holder">
+                        <h3>Foody</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> <span>22 Hunger road, Leicester, England</span></p>
+                        <p><i class="fas fa-phone"></i> <span>+440123456789</span></p>
+                        <p><i class="fas fa-paper-plane"></i> <span>info@foody.co.uk</span></p>
+                    </div>
+                </div>
             </div>
             <div id="copyright"></div>
         </footer>

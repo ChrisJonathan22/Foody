@@ -635,19 +635,46 @@ footer {
 }
 
 #form {
-    border: 1px red solid;
-    padding-top: 100px;
+    /* border: 1px red solid; */
+    padding-top: 60px;
+    padding-bottom: 20px;
     margin: 0 auto;
     width: 80%;
     overflow: hidden;
+}
+
+#form label {
+    font-size: 20px;
+    padding-bottom: 20px;
 }
 
 #name, #email, #message {
     border: 0px;
     border-bottom: 1px lightgray solid;
     float: left;
-    padding-top: 5px;
+    padding-top: 20px;
     width: 100%;
+}
+
+#name:focus, #email:focus, #message:focus {
+    outline: none;
+}
+
+#submit {
+    margin-top: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 1px;
+    padding: 10px;
+}
+
+#submit:hover {
+    background-color: #A58755;
+    color: white;
+}
+
+#submit:focus {
+    outline: none;
 }
 
 #address {
@@ -655,4 +682,28 @@ footer {
     width: 50%;
     height: 100%;
     float: right;
+}
+
+
+#address-holder {
+    border: 1px red solid;
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+#address-holder h3 {
+    color: white;
+    padding-bottom: 20px;
+    font-family: 'Russo One';
+}
+
+#address-holder p {
+    padding-bottom: 30px;
+    color: white;
+}
+
+#address-holder span {
+    font-size: 13px;
 }
