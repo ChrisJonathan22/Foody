@@ -100,7 +100,7 @@
 #title-holder p {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.3);
-    width: 80%;
+    width: 700px;
     margin: 0 auto;
 }
 
@@ -148,7 +148,6 @@
 #discover-left-inner p {
     padding-bottom: 30px;
     color: grey;
-    /* line-break: auto; */
     word-break: break-all;
 }
 
@@ -556,7 +555,6 @@
 }
 
 #input-holder {
-    /* border: 1px red solid; */
     background-color: white;
     width: 430px;
     height: 25px;
@@ -623,8 +621,8 @@ footer {
     left: 0;
     right: 0;
     margin: 0 auto;
-    border: 1px green solid;
     overflow: hidden;
+    box-shadow: #1e1e1f 5px 5px 10px;
 }
 
 #form-holder {
@@ -635,7 +633,6 @@ footer {
 }
 
 #form {
-    /* border: 1px red solid; */
     padding-top: 60px;
     padding-bottom: 20px;
     margin: 0 auto;
@@ -686,7 +683,6 @@ footer {
 
 
 #address-holder {
-    border: 1px red solid;
     width: 80%;
     height: 250px;
     margin: 0 auto;
@@ -706,4 +702,21 @@ footer {
 
 #address-holder span {
     font-size: 13px;
+    padding-left: 10px;
+}
+
+#footer-elements {
+    height: 100px;
+    padding-top: 250px;
+    text-align: center;
+}
+
+#footer-elements i {
+    font-size: 25px;
+}
+
+#footer-elements p {
+    color: white;
+    font-family: 'Russo One';
+    font-size: 25px;
 }
