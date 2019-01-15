@@ -17,6 +17,16 @@
 
 /* nav styles */
 
+/* Mobile nav */
+#mobile-nav {
+    display: none;
+}
+
+#mobile-menu {
+    display: none;
+}
+
+/* The End */
 #nav-bar {
     background-color: rgba(10, 10, 10, 0.3);
     position: fixed;
@@ -719,4 +729,45 @@ footer {
     color: white;
     font-family: 'Russo One';
     font-size: 25px;
+}
+
+
+/* Tablet Media Queries */
+@media only screen and (max-width: 768px) {
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    #nav-bar {
+        display: none;
+    }
+
+    #mobile-nav {
+        float: right;
+        display: initial;
+    }
+
+    #mobile-nav i {
+        color: white;
+        font-size: 50px;
+    }
+
+    #mobile-menu {
+        display: initial;
+        
+    }
+
+    #mobile-menu ul {
+        background-color: white;
+        height: 200px;
+        width: 100px;
+        border: 1px red solid;
+    }
+
+    #mobile-menu ul li {
+        color: white !important;
+    }
+
 }
