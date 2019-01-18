@@ -1,4 +1,6 @@
 let navBar = document.getElementById('nav-bar');    // Access the element with an id of nav-bar.
+let mobileNav = document.getElementById('mobile-nav');  // This is the mobile menu button.
+let mobileMenu = document.getElementById('mobile-menu');    // This is the mobile menu. 
 let timer = null;   // Create a variable and assign it to null;
 
 window.addEventListener('scroll', () => {   // When a user scrolls the page do this.
@@ -9,4 +11,21 @@ window.addEventListener('scroll', () => {   // When a user scrolls the page do t
     timer = setTimeout(() => {  // Set up a timer which will be triggered after 250 ms / 0.25 sec.
         navBar.style.backgroundColor = "rgba(10, 10, 10, 0.3)"; // Once the timer is active change the navbar's background color to its original color.
     }, 250);
+}, false);
+
+mobileNav.addEventListener('click', () => {
+    // if(mobileMenu.className !== "show"){
+    //     mobileMenu.className = "show";
+    // }
+
+    // else {
+    //     mobileMenu.className = "hide";
+    // }
+    if(mobileMenu.className == "hide") {
+        mobileMenu.className = "show";
+    }
+
+    else {
+        mobileMenu.className = 'hide';
+    }
 }, false);
