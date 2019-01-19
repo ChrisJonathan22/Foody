@@ -13,6 +13,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 /* nav styles */
@@ -755,7 +756,7 @@ footer {
 
     #mobile-nav {
         float: right;
-        display: initial;
+        display: block;
     }
 
     #mobile-nav i {
@@ -763,23 +764,32 @@ footer {
         font-size: 50px;
     }
 
+    #mobile-menu {
+        display: block;
+        background-color:  rgba(175, 145, 47, 0.3);
+        /* background-color: white; */
+        width: 300px;
+        height: 100%;
+        position: relative;
+        -webkit-transform: translate(-300px, 0);
+        transform: translate(-300px, 0);
+        transition: transform 0.3s ease;
+    }
+
     .show {
-        display: initial;
+        -webkit-transform: translate(0, 0) !important;
+        transform: translate(0, 0) !important;
     }
 
-    .hide{
-        display: none;
+    #mobile-menu li {
+        list-style: none;
+        text-align: center;
     }
 
-    #mobile-menu ul {
-        background-color: white;
-        height: 200px;
-        width: 100px;
-        border: 1px red solid;
-    }
-
-    #mobile-menu ul li {
-        color: white !important;
+    #mobile-menu li a {
+        /* color: #A58755; */
+        color: white;
+        text-decoration: none;
     }
 
 }

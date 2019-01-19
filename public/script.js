@@ -1,5 +1,5 @@
 let navBar = document.getElementById('nav-bar');    // Access the element with an id of nav-bar.
-let mobileNav = document.getElementById('mobile-nav');  // This is the mobile menu button.
+let mobileButton = document.getElementsByClassName('mobile-button')[0];  // This is the mobile menu button.
 let mobileMenu = document.getElementById('mobile-menu');    // This is the mobile menu. 
 let timer = null;   // Create a variable and assign it to null;
 
@@ -13,19 +13,8 @@ window.addEventListener('scroll', () => {   // When a user scrolls the page do t
     }, 250);
 }, false);
 
-mobileNav.addEventListener('click', () => {
-    // if(mobileMenu.className !== "show"){
-    //     mobileMenu.className = "show";
-    // }
 
-    // else {
-    //     mobileMenu.className = "hide";
-    // }
-    if(mobileMenu.className == "hide") {
-        mobileMenu.className = "show";
-    }
-
-    else {
-        mobileMenu.className = 'hide';
-    }
+mobileButton.addEventListener('click', (e) => {
+   mobileMenu.classList.toggle('show');
+   e.stopPropagation();
 }, false);
