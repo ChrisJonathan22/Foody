@@ -903,7 +903,72 @@ footer {
   .image {
     height: 300px;
   }
+
+  /* Favourite section end */
   
+
+/* Choose dish section styles */
+
+#menu {
+    height: 940px;
+}
+
+#menu h3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 2.2em;
+}
+
+#third-menu {
+  width: 100%;
+}
+
+#third-menu ul li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#dish-list {
+  width: 100%;
+  height: 900px;
+  padding-top: 30px;
+}
+
+#left-side {
+  width: 100%;
+  height: 350px;
+}
+
+
+#right-side {
+  width: 100%;
+  height: 350px;
+  padding-top: 30px;
+}
+
+/* Choose your dish end */
+
+/* Video section styles */
+
+#video-container {
+    background: url("./img/black-texture.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 65px;
+    height: 500px;
+    text-align: center;
+}
+
+#video-container p {
+    color: white;
+}
+
+#video-container span {
+    color: #A58755;
+    font-weight: 800;
+}
+
 
 }
 
