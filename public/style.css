@@ -814,7 +814,7 @@ footer {
         flex-wrap: wrap;
         height: 550px;
         background-color: white;
-        border: 1px red solid;
+        /* border: 1px red solid; */
         overflow: hidden;
         padding-bottom: 80px;
     }
@@ -845,6 +845,7 @@ footer {
 
 #avatar-text {
     margin-right: 20px;
+    margin-top: 20px;
     float: right;
 }
 
@@ -865,6 +866,44 @@ footer {
 }
 
 /* The end of Discover right */
+
+/* Second menu styles */
+
+#second-menu {
+    height: 220px;
+    padding: 30px 0 0 0;
+}
+
+#second-menu ul li {
+    display: block;
+    margin-left: 0px;
+}
+
+#second-menu ul li:hover {
+    background-color: #A58755;
+}
+
+#second-menu ul li a {
+    font-size: 20px;
+}
+
+/* Favourite section styles */
+
+#favourite {
+    height: 900px;
+    overflow: hidden;
+  }
+  
+.holder {
+    position: relative;
+    width: 100%;
+  }
+
+  
+  .image {
+    height: 300px;
+  }
+  
 
 }
 
