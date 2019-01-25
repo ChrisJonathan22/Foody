@@ -1023,6 +1023,147 @@ footer {
     border-bottom: 1px red dashed;
 }
 
+/* Meet our chefs end */
+
+/* Subscribe section style */
+
+#subscribe-holder {
+   width: 100%;
+}
+
+#input-holder {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#subscribe-button {
+    margin-top: -25px;
+    margin-right: -5px;
+}
+
+/* Subscribe section end */
+
+
+/* Footer section styles */
+
+footer {
+    height: 1000px;
+    position: relative;
+    border: 1px red solid;
+}
+
+#map {
+    height: 65%;
+    /* background: url("./img/map.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#copyright {
+    background-color: #464646;
+    height: 35%;
+}
+
+/* Form section styles */
+
+#contact {
+    width: 100%;
+    top: 0px;
+}
+
+#form-holder {
+    width: 100%;
+    height: 100%;
+    clear: both;
+}
+
+#form {
+    padding-top: 40px;
+    width: 80%;
+}
+
+#form label {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#name, #email, #message {
+    border: 0px;
+    border-bottom: 1px lightgray solid;
+    float: left;
+    padding-top: 20px;
+    width: 100%;
+}
+
+#name:focus, #email:focus, #message:focus {
+    outline: none;
+}
+
+#submit {
+    margin-top: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 1px;
+    padding: 10px;
+}
+
+#submit:hover {
+    background-color: #A58755;
+    color: white;
+}
+
+#submit:focus {
+    outline: none;
+}
+
+#address {
+    background-color: #AC8949;
+    width: 100%;
+    height: 100%;
+    clear: both;
+}
+
+
+#address-holder {
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+#address-holder h3 {
+    color: white;
+    padding-bottom: 20px;
+    font-family: 'Russo One';
+}
+
+#address-holder p {
+    padding-bottom: 30px;
+    color: white;
+}
+
+#address-holder span {
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+#footer-elements {
+    height: 100px;
+    padding-top: 250px;
+    text-align: center;
+}
+
+#footer-elements i {
+    font-size: 25px;
+}
+
+#footer-elements p {
+    color: white;
+    font-family: 'Russo One';
+    font-size: 25px;
+}
+
 
 }
 
