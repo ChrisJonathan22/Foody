@@ -5,6 +5,9 @@
     margin: 0;
 }
 
+
+/*  */
+
 /* Use an image as a background for the header */
 
 #header {
@@ -742,7 +745,7 @@ footer {
 }
 
 
-/* Tablet Media Queries */
+/* Mobile Media Queries */
 @media only screen and (min-width: 360px) {
 
     html, body {
@@ -1101,12 +1104,74 @@ footer {
 
 }
 
+/* Mobile end */
 
 
+/* Tablet media queries */
 
 @media only screen and (min-width: 768px) {
+    /* Header styles */
+
+
+    #mobile-nav i {
+        color: white;
+        font-size: 100px;
+    }
+
+    #mobile-menu {
+        display: block;
+        background-color:  rgba(29, 28, 27, 0.3);
+        width: 300px;
+        height: 100%;
+        position: relative;
+        -webkit-transform: translate(-300px, 0);
+        transform: translate(-300px, 0);
+        transition: transform 0.3s ease;
+    }
+
+    .show {
+        -webkit-transform: translate(0, 0) !important;
+        transform: translate(0, 0) !important;
+    }
+
+    #mobile-menu li {
+        list-style: none;
+        padding: 10px;
+        border-bottom: 1px white solid;
+    }
+
+    #mobile-menu li a {
+        /* color: #A58755; */
+        color: white;
+        text-decoration: none;
+        
+    }
+
+    #title-holder {
+        display: block;
+        margin-top: -430px;
+        width: 100%;
+    }
+
+    #title-holder p {
+        width: 100%;
+        padding: 0;
+    }
+
+    /* The end of Header styles */
+
 }
 
+
+
+
+/* Tablet end */
+
+
+
+
+
+/* Desktop media queries */
 @media only screen and (min-width: 1224px) {
     /* Reset the padding and margin of every element on the page to 0 */
 
