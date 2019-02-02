@@ -1433,8 +1433,102 @@ footer {
    font-size: 3.5em;
 }
 
-
 /* Meet our chefs section styles end */
+
+
+/* Subscribe section style */
+
+#subscribe {
+    height: 450px;
+}
+
+#subscribe h3 {
+    font-size: 3.5em;
+}
+
+#subscribe-holder {
+   width: 550px;
+   height: 75px;
+}
+
+#input-holder {
+    width: 540px;
+    height: 65px;
+    padding: 10px;
+}
+
+#subscribe-button {
+    padding: 10px;
+    margin-top: -53px;
+    margin-right: -5px;
+    font-size: 2.5em;
+}
+
+#subscribe-email {
+    padding-top: 5px;
+    width: 330px;
+    font-size: 2.5em;
+}
+
+/* Subscribe section style end */
+
+
+/* Footer section styles */
+
+footer {
+    height: 850px;
+    position: relative;
+    overflow: hidden;
+}
+
+#map {
+    display: none;
+}
+
+#copyright {
+    height: 10%;
+    margin-top: 765px;
+}
+
+/* Form section styles */
+
+#contact {
+    width: 100%;
+    top: 0px;
+    height: 90%;
+}
+
+#form-holder {
+    width: 100%;
+    height: 50%;
+    clear: both;
+}
+
+#form {
+    padding-top: 40px;
+    width: 80%;
+}
+
+#form label {
+    font-size: 2.5em;
+}
+
+
+#address {
+    height: 50%;
+    width: 100%;
+    clear: both;
+}
+
+#footer-elements {
+    padding-top: 5px;
+}
+
+#footer-elements p {
+    font-size: 22px;
+}
+
+/* Form section styles end */
 
 }
 /* Tablet end */
