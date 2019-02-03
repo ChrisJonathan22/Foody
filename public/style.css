@@ -1476,18 +1476,18 @@ footer {
 /* Footer section styles */
 
 footer {
-    height: 850px;
+    height: 2050px;
     position: relative;
     overflow: hidden;
 }
 
-#map {
+/* #map {
     display: none;
-}
+} */
 
 #copyright {
     height: 10%;
-    margin-top: 765px;
+    margin-top: 1270px;
 }
 
 /* Form section styles */
@@ -1509,10 +1509,18 @@ footer {
     width: 80%;
 }
 
-#form label {
+#form input, #form #message {
     font-size: 2.5em;
 }
 
+#form label {
+    font-size: 3.5em;
+}
+
+#name, #email, #message {
+    border-bottom: 5px lightgray solid;
+    padding-top: 20px;
+}
 
 #address {
     height: 50%;
@@ -1520,12 +1528,36 @@ footer {
     clear: both;
 }
 
+/* #address-holder {
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    padding-top: 60px;
+} */
+
+#address-holder h3 {
+    padding-top: 150px;
+    padding-bottom: 120px;
+    font-size: 3.5em;
+}
+
+#address-holder p {
+    padding-bottom: 50px;
+    font-size: 3em;
+}
+
+#address-holder span {
+    font-size: 0.7em;
+    padding-left: 50px;
+    text-align: left;
+}
+
 #footer-elements {
-    padding-top: 5px;
+    padding-top: 50px;
 }
 
 #footer-elements p {
-    font-size: 22px;
+    font-size: 2.5em;
 }
 
 /* Form section styles end */
