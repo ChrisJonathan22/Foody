@@ -1602,6 +1602,7 @@ footer {
 
 /* The End */
 #nav-bar {
+    display: block !important;
     background-color: rgba(10, 10, 10, 0.3);
     position: fixed;
     z-index: 2000000000;
@@ -1706,79 +1707,76 @@ footer {
     outline: none;
 }
 
-/* Discover left */
+
+/* Discover styles */
 
 #discover {
-    height: 350px;
-    background-color: white;
+    height: 770px;
 }
 
+/* Discover left */
 #discover-left {
     float: left;
+    padding-top: 70px;
     width: 50%;
+    margin: 0;
 }
 
 #discover-left-inner {
-    float: right;
-    overflow: hidden;
-    width: 350px;
-    text-align: left;
+    width: 100%;
+    height: auto;
 }
 
 #discover-left-inner h3 {
-    font-size: 30px;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    font-family: 'Russo One';
-    font-weight: 300;
+    font-size: 50px;
 }
 
 #discover-left-inner p {
-    padding-bottom: 30px;
-    color: grey;
-    word-break: break-all;
+    font-size: 2.5em;
 }
 
 /* Avatar styles */
 
 #avatar{
-    background-image: url('./img/chef-avatar.jpg');
-    height: 70px;
-    width: 70px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 50px;
-    float: left;
+height: 220px;
+width: 220px;
+border-radius: 120px;
+margin-left: 35%;
+margin-right: 35%;
+margin-bottom: 10px;
 }
 
 #avatar-text {
-    margin-left: 80px;
-    padding-top: 10px;
+margin: 0;
+margin-top: 20px;
+text-align: center;
+float: none;
 }
 
 #avatar-text h4 {
-    font-family: 'Russo One';
-    font-weight: 400;
-}
-
-#avatar-text p {
-    color: #A58755;
-    font-family: 'Gochi Hand','Indie Flower', cursive;
+font-size: 2.5em;
 }
 
 /* Discover right*/
 
-#discover-right-inner {
-    float: left;
-    width: 400px;
-    height: 350px;
-    margin-left: 20px;
-    background-image: url('./img/lunch-no-background.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#discover-right {
+float: right;
+width: 50%;
+height: 100%;
 }
+
+#discover-right-inner {
+float: none;
+width: 100%;
+height: 550px;
+/* margin: 0 auto; */
+margin-left: 0;
+}
+
+/* The end of Discover right */
+
+
+
 
 /* Second menu styles */
 
