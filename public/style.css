@@ -1487,7 +1487,7 @@ footer {
 
 #copyright {
     height: 10%;
-    margin-top: 1270px;
+    margin-top: 1845px;
 }
 
 /* Form section styles */
@@ -1554,6 +1554,10 @@ footer {
 
 #footer-elements {
     padding-top: 50px;
+}
+
+#footer-elements #icons a i {
+    font-size: 2.5em;
 }
 
 #footer-elements p {
