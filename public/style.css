@@ -1109,7 +1109,7 @@ footer {
 
 /* Tablet media queries */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 967px) {
     /* Header styles */
 
     #header {
@@ -1739,14 +1739,14 @@ margin-bottom: 30px;
 }
 
 #avatar-text {
-margin: 0;
+margin-left: -920px;
 margin-top: 20px;
 text-align: center;
-float: none;
+/* float: none; */
 }
 
 #avatar-text h4 {
-font-size: 2.5em;
+font-size: 2em;
 }
 
 /* Discover right*/
@@ -1775,6 +1775,7 @@ margin-left: 0;
 #second-menu {
     background-color: #F8F6F7;
     width: 100%;
+    height: 30px;
     padding: 10px 0 10px 0;
 }
 
@@ -1795,7 +1796,7 @@ margin-left: 0;
 }
 
 #second-menu ul li a:hover {
-    color: #A58755;
+    color: white;
 }
 
 /* Favourite section styles */
