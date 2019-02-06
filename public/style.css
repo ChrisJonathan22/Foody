@@ -1960,6 +1960,7 @@ margin-left: 0;
     float: right;
     width: 45%;
     height: 400px;
+    margin-top: -30px;
 }
 
 /* Video section styles */
@@ -2179,9 +2180,11 @@ margin-left: 0;
 footer {
     height: 1000px;
     position: relative;
+    border: 1px red solid;
 }
 
 #map {
+    display: block;
     height: 65%;
     background: url("./img/map.jpg");
     background-position: center;
@@ -2192,6 +2195,7 @@ footer {
 #copyright {
     background-color: #464646;
     height: 35%;
+    border: 1px violet solid;
 }
 
 /* Form section styles */
@@ -2207,6 +2211,7 @@ footer {
     margin: 0 auto;
     overflow: hidden;
     box-shadow: #1e1e1f 5px 5px 10px;
+    border: 1px red solid;
 }
 
 #form-holder {
@@ -2263,6 +2268,7 @@ footer {
     width: 50%;
     height: 100%;
     float: right;
+    margin-top: -400px;
 }
 
 
