@@ -791,7 +791,6 @@ footer {
     }
 
     #mobile-menu li a {
-        /* color: #A58755; */
         color: white;
         text-decoration: none;
         
@@ -817,7 +816,6 @@ footer {
         flex-wrap: wrap;
         height: 550px;
         background-color: white;
-        /* border: 1px red solid; */
         overflow: hidden;
         padding-bottom: 80px;
     }
@@ -1135,7 +1133,6 @@ footer {
     }
 
     #mobile-menu li a {
-        /* color: #A58755; */
         color: white;
         text-decoration: none;
         font-size: 40px;
@@ -1224,7 +1221,6 @@ footer {
     float: none;
     width: 100%;
     height: 550px;
-    /* margin: 0 auto; */
     margin-left: 0;
 }
 
@@ -1342,7 +1338,6 @@ footer {
 
 #video {
     margin-top: 30px;
-    /* width: 100%; */
     height: 80%;
 }
 
@@ -1481,10 +1476,6 @@ footer {
     overflow: hidden;
 }
 
-/* #map {
-    display: none;
-} */
-
 #copyright {
     height: 10%;
     margin-top: 1845px;
@@ -1528,13 +1519,6 @@ footer {
     clear: both;
 }
 
-/* #address-holder {
-    width: 80%;
-    height: 250px;
-    margin: 0 auto;
-    padding-top: 60px;
-} */
-
 #address-holder h3 {
     padding-top: 150px;
     padding-bottom: 120px;
@@ -1572,8 +1556,7 @@ footer {
 /* Desktop media queries */
 @media only screen and (min-width: 968px) {
 
-
-/* Use an image as a background for the header */
+/* Header styles */
 
 #header {
     height: 420px;
@@ -1742,7 +1725,6 @@ margin-bottom: 30px;
 margin-left: -920px;
 margin-top: 20px;
 text-align: center;
-/* float: none; */
 }
 
 #avatar-text h4 {
@@ -1761,7 +1743,6 @@ height: 100%;
 float: none;
 width: 100%;
 height: 550px;
-/* margin: 0 auto; */
 margin-left: 0;
 }
 
@@ -2180,7 +2161,6 @@ margin-left: 0;
 footer {
     height: 1000px;
     position: relative;
-    border: 1px red solid;
 }
 
 #map {
@@ -2195,7 +2175,7 @@ footer {
 #copyright {
     background-color: #464646;
     height: 35%;
-    border: 1px violet solid;
+    margin-top: 0px;
 }
 
 /* Form section styles */
@@ -2211,7 +2191,6 @@ footer {
     margin: 0 auto;
     overflow: hidden;
     box-shadow: #1e1e1f 5px 5px 10px;
-    border: 1px red solid;
 }
 
 #form-holder {
@@ -2297,8 +2276,8 @@ footer {
 
 #footer-elements {
     height: 100px;
-    padding-top: 250px;
     text-align: center;
+    padding-top: 250px;
 }
 
 #footer-elements i {
@@ -2310,4 +2289,7 @@ footer {
     font-family: 'Russo One';
     font-size: 25px;
 }
+
 }
+
+/* Desktop end. */
